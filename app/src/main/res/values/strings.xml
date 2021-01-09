@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Institution X</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_time">Course Time</string>
+    <string name="course_code">Course Code</string>
+
+    <string name="main_card_title">Title goes here</string>
+    <string name="main_card_subtitle">Subtitle here</string>
+
+    <string name="main_card_button_1">ACTION 1</string>
+    <string name="main_card_button_2">ACTION 2</string>
+    <string name="join_class">Join Class</string>
 </resources>

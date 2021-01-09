@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="15dp"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="#92A8D1"
     tools:context="LoginActivity">
 
 
@@ -13,6 +13,11 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Email"
+        android:layout_margin="15dp"
+
+
+        android:textColor="#000"
+        android:textColorHint="#000"
         android:id="@+id/editText_Email"
         android:layout_marginTop="20dp"/>
 
@@ -20,6 +25,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Password"
+        android:layout_margin="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
         android:id="@+id/editText_Password"
         android:inputType="textPassword"
         android:layout_marginTop="20dp"/>
@@ -27,7 +35,10 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+
         android:text="Login"
+        android:layout_margin="15dp"
+        android:background="#34568B"
         android:textStyle="normal"
         android:id="@+id/button_login"
         android:padding="5dp"
