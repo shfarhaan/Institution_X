@@ -70,11 +70,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/course_code"
+            android:background="@color/google_blue"
             android:layout_marginTop="10dp"
             android:layout_marginStart="250dp"
             android:layout_marginBottom="15dp"
             android:text="@string/join_class"
-            android:textColor="@color/google_blue" />
+            android:padding="@dimen/btn_margin"
+            android:textColor="@color/white"/>
 
 <!--        <Button
             android:id="@+id/btn_card_main1_action2"

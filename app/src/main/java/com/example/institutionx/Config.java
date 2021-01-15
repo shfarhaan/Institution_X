@@ -2,7 +2,7 @@ package com.example.institutionx;
 
 public class Config {
     //URL to our login.php file
-    public static final String LOGIN_URL = "http://192.168.0.108/login_android/user_login.php";
+    public static final String LOGIN_URL = "http://192.168.0.102/login_android/user_login.php";
 
     //Keys for email and password as defined in our $_POST['key'] in login.php
     public static final String KEY_EMAIL = "email";

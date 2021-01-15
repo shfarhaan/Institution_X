@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/forum_nav"
+        android:icon="@drawable/forum_image"
+        android:title="Stream"/>
+
+    <item
+        android:id="@+id/classwork_nav"
+        android:icon="@drawable/classwork_image"
+        android:title="Classwork"/>
+
+    <item
+        android:id="@+id/joinLiveClass_nav"
+        android:icon="@drawable/live_class_image"
+        android:title="Join Live Class"/>
+
+    <item
+        android:id="@+id/classmates_nav"
+        android:icon="@drawable/people_image"
+        android:title="Classmates"/>
+
+</menu>

@@ -11,8 +11,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.widget.ProgressBar;
-import android.widget.TextView;
+import android.view.View;
+import android.widget.Button;
 
 import com.android.volley.Request;
 import com.android.volley.Response;
@@ -29,28 +29,20 @@ import java.util.List;
 
 public class ProfileActivity extends AppCompatActivity {
 
-    private static final String COURSE_LIST_URL = "http://192.168.0.108/login_android/courseList.php" ;
+    private static final String COURSE_LIST_URL = "http://192.168.0.102/login_android/courseList.php" ;
 
     List<ClassDetails> classDetailsList;
     RecyclerView recyclerView;
 
     RecyclerViewAdapter recyclerViewAdapter;
-    ArrayList<String> SubjectNames;
 
-    //Textview to show currently logged in user
-    private TextView textView;
+    private Button joinClassButton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-
-        //Fetching email from shared preferences
-        //SharedPreferences sharedPreferences = getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
-        //String email = sharedPreferences.getString(Config.EMAIL_SHARED_PREF,"Not Available");
-
-//        Showing the current logged in email to textview
-//        textView.setText("Current User: " + email);
 
         classDetailsList = new ArrayList<>();
 
