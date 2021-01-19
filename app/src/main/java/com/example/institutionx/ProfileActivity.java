@@ -29,7 +29,7 @@ import java.util.List;
 
 public class ProfileActivity extends AppCompatActivity {
 
-    private static final String COURSE_LIST_URL = "http://192.168.0.102/login_android/courseList.php" ;
+    private static final String COURSE_LIST_URL = "http://192.168.0.104/login_android/courseList.php" ;
 
     List<ClassDetails> classDetailsList;
     RecyclerView recyclerView;
@@ -37,7 +37,6 @@ public class ProfileActivity extends AppCompatActivity {
     RecyclerViewAdapter recyclerViewAdapter;
 
     private Button joinClassButton;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -151,20 +150,4 @@ public class ProfileActivity extends AppCompatActivity {
 
     }
 
-   /* @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        //Adding our menu to toolbar
-        getMenuInflater().inflate(R.id.button_logout, );
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.button_logout) {
-            //calling logout method when the logout button is clicked
-            logout();
-        }
-        return super.onOptionsItemSelected(item);
-    }*/
 }

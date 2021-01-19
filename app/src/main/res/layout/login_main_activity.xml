@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#1E88E5"
+    android:background="@color/activity_background"
     tools:context="LoginActivity">
 
 
@@ -14,8 +14,6 @@
         android:layout_height="wrap_content"
         android:hint="Enter Email"
         android:layout_margin="15dp"
-
-
         android:textColor="#000"
         android:textColorHint="#000"
         android:id="@+id/editText_Email"
@@ -35,10 +33,10 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-
         android:text="Login"
+        android:textColor="@color/white"
         android:layout_margin="15dp"
-        android:background="#173F7A"
+        android:background="@color/app_blue"
         android:textStyle="normal"
         android:id="@+id/button_login"
         android:padding="5dp"

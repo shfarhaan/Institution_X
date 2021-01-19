@@ -21,6 +21,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private List<ClassDetails> classDetailsList;
 
     public RecyclerViewAdapter(Context mContext, List<ClassDetails> classDetailsList) {
+        this.layoutInflater = layoutInflater;
+        this.data = data;
         this.mContext = mContext;
         this.classDetailsList = classDetailsList;
     }

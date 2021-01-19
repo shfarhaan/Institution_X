@@ -10,4 +10,5 @@
     <string name="main_card_button_1">ACTION 1</string>
     <string name="main_card_button_2">ACTION 2</string>
     <string name="join_class">Join Class</string>
+    <string name="this_is_a_post">This is a Post...</string>
 </resources>
