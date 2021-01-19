@@ -12,7 +12,7 @@
 		require_once('dbConnect.php');
 		
 		//executing query
-		$result = mysqli_query($con,$sql);
+		$result = mysqli_query($conn,$sql);
 		
 		//fetching result
 		$check = mysqli_fetch_array($result);
@@ -25,6 +25,6 @@
 			//displaying failure
 			echo "failure";
 		}
-		mysqli_close($con);
+		mysqli_close($conn);
     }
 ?>
